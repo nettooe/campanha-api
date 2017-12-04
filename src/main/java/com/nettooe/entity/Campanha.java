@@ -15,7 +15,7 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 
 @Entity
-@ApiModel(value = "Campanha", description = "Campanha publicitária.")
+@ApiModel(value = "Campanha", description = "Campanha publicitária")
 public class Campanha implements Serializable {
 	private static final long serialVersionUID = 1L;
 

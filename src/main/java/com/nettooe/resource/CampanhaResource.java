@@ -49,7 +49,7 @@ public class CampanhaResource {
 			@ApiResponse(code = 403, message = "Acesso proibido"),
 			@ApiResponse(code = 404, message = "Recurso não encontrado") })
 	public List<Campanha> listar() {
-		return this.campanhaRepository.findAll();
+		return this.campanhaRepository.findAllVigentes();
 	}
 	
 	@PostMapping

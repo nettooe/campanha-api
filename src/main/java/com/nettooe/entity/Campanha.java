@@ -3,6 +3,7 @@ package com.nettooe.entity;
 import java.io.Serializable;
 import java.time.LocalDate;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -33,10 +34,12 @@ public class Campanha implements Serializable {
 
 	@NotNull
 	@ApiModelProperty(notes = "Dia em que inicia a vigência da campanha.", required = true)
+	@Column(name = "inicio_vigencia")
 	private LocalDate inicioVigencia;
 
 	@NotNull
 	@ApiModelProperty(notes = "Dia em que termina a vigência da campanha.", required = true)
+	@Column(name = "fim_vigencia")
 	private LocalDate fimVigencia;
 
 	public Campanha() {

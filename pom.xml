@@ -6,7 +6,7 @@
 	<groupId>com.nettooe</groupId>
 	<artifactId>campanha-api</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>campanha-api</name>
 	<description>Api de grenciamento de campanhas para sócios torcedores</description>
